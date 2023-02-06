@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="089fed4216d54bcab06ad38f0bd67be6" Name="Diagram1">
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.Estudiante" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.Incidencia" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.Representante" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.Ruta" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.RutaTransporte" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TransSchoolJosuePaucarModel.Transporte" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="TransSchoolJosuePaucarModel.FK__Estudiant__Repre__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="TransSchoolJosuePaucarModel.FK__Ruta__Estudiante__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="TransSchoolJosuePaucarModel.FK__Incidenci__RutaI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="TransSchoolJosuePaucarModel.FK__RutaTrans__RutaI__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="TransSchoolJosuePaucarModel.FK__RutaTrans__Trans__571DF1D5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
